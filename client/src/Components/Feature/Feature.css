@@ -1,0 +1,107 @@
+.feature{
+    padding: 10px 70px;
+    padding-top: 70px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.feature-box{
+    width: 320px;
+    padding: 30px !important;
+    text-align: center;
+    background-color: white;
+    color: grey;
+    border-radius: 18px;
+    align-self: stretch;
+}
+.feature-icon{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--secondary);
+}
+.feature-head{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.feature-text{
+    color: rgb(19, 19, 19);
+}
+
+
+
+@media screen and (max-width:768px) {
+    .feature{
+        padding: 10px !important;
+        padding-top: 60px !important;
+        gap: 30px !important;
+        justify-content: space-evenly !important;
+    }
+    
+    .feature-box{
+        width: 300px !important;
+        padding: 20px !important;
+    }
+    .feature-icon{
+        font-weight: 700;
+        font-size: 27px !important;
+        color: var(--secondary);
+    }
+    .feature-head{
+        font-size: 18px !important;
+        color: black;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+    .feature-text{
+        font-size: 15px !important;
+        color: rgb(19, 19, 19);
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:768px) {
+    .feature{
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    
+    .feature-box{
+        width: 380px;
+        padding: 30px !important;
+        text-align: center;
+        background-color: white;
+        color: grey;
+        border-radius: 18px;
+        align-self: stretch;
+    }
+    .feature-icon{
+        font-weight: 700;
+        font-size: 30px;
+        color: var(--secondary);
+    }
+    .feature-head{
+        font-size: 20px;
+        color: black;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+    .feature-text{
+        color: rgb(19, 19, 19);
+    }
+    
+    
+    
+}

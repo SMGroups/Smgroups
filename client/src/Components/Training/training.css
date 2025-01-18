@@ -1,0 +1,123 @@
+.training{
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: white; */
+  }
+  .training .titles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .training .training-title{
+    text-align: center;
+    font-size: 40px;
+    color: var(--primary);
+    font-weight: 800;
+  
+  }
+  .training-subtitle{
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+    color: var(--primary);
+  }
+  .training .blue-line{
+    background-color: var(--secondary);
+    height: 5px;
+    width: 150px;
+    border-radius: 20px;
+  }
+  .training .training-boxes{
+    padding: 10px 70px;
+    padding-top: 50px;
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .training .training-box{ 
+    width: 320px;
+    align-self: stretch;
+    background-color: white;
+    color: var(--secondary);
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.5s ease !important;
+  }
+  .training-box:hover{
+    scale: 1.05;
+  }
+  .training .icon-box{
+    color: white;
+    font-size: 25px;
+    background-color: var(--secondary);
+    display: inline-block;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  .training .t-title{
+    font-size: 22px;
+    font-weight: 800;
+  }
+.training .list-icon{
+    color: var(--secondary);
+    margin-right: 10px
+  }
+  
+
+
+
+
+  @media screen and (max-width:768px){
+    .training{
+      padding: 20px;
+    }
+    .training-title{
+      padding-top: 30px;
+    }
+    .training-subtitle{
+      width: 100%;
+    }
+    .training .training-boxes{
+      padding: 10px 30px;
+      padding-top: 50px;
+      gap: 30px;
+    }
+    .training .training-box{ 
+      width: 300px;
+    }
+    
+  }
+
+  
+  @media screen and (max-width:425px){
+    .training .training-title{
+      text-align: center;
+      font-size: 25px;
+      font-weight: 800;
+    }
+    .training-subtitle{
+      font-size: 16px;
+      width: 100%;
+    }
+    .training .training-boxes{
+      padding: 10px 10px;
+      padding-top: 50px;
+      gap: 30px;
+    }
+    .training .training-box{ 
+      width: 100%;
+      border-radius: 20px;
+      padding: 20px;
+    }
+    
+    
+  }

@@ -1,0 +1,179 @@
+
+footer {
+    background: var(--primary);
+    color: white;
+    width: 100%;
+}
+
+.foot-head {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+.foot-body{
+    color: white !important;
+    text-decoration: none !important;
+    font-family: 'Mulish' !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    text-align: left;
+}
+
+
+.footer-container {
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.stripe {
+    height: 2px;
+    width: 80%;
+    border-top: 1px solid white;
+    margin: auto;
+}
+
+.cloudi5 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 100px;
+}
+
+.cloudi5-left img {
+    padding-top: 5px;
+    width: auto;
+    height: 66.77px;
+}
+
+.cloudi5-left p, .cloudi5-right p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.cloudi5-right p {
+    width: 300px;
+}
+
+.icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+    font-size: 20px;
+}
+
+a .s-icon {
+    color: white !important;
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: var(--secondary);
+    color: white;
+}
+
+
+@media screen and (max-width:768px) {
+    
+.foot-head {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+}
+.foot-body {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+footer .faq {
+    flex-grow: 0;
+}
+.stripe {
+    width: 90%;
+}
+.footer-container {
+    padding: 10px 50px;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.cloudi5{
+    padding: 10px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloudi5-left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.cloudi5-left p, .cloudi5-right p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.icons {
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+}
+
+@media screen and (max-width:425px) {
+    
+.foot-head {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 20px;
+}
+.foot-body {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px !important;
+}
+footer .faq p{
+    text-align: start !important;
+}
+.footer-container {
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.cloudi5{
+    padding: 10px 50px;
+}
+.cloudi5-left{
+    width: 100%;
+}
+.cloudi5-left p, .cloudi5-right p {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.icons {
+    justify-content: center;
+}
+.copyright {
+    font-size: 14px;
+}
+}

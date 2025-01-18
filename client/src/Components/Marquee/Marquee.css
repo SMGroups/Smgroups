@@ -1,0 +1,119 @@
+.LogoSlider{
+    padding: 20px 0px 40px 0px;
+}
+.LogoSlider img{
+    height: 70px;
+    width: auto;
+    padding-right: 70px;
+}
+.projects-slider-container {
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    max-width: 100vw;
+    height: auto !important;
+    overflow:hidden ;
+  }
+  
+  .projects-title {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .project-image {
+    width: 100% !important;
+    object-fit: cover !important;
+    height: 500px !important;
+    display: block;
+    padding-left: 70px;
+  }
+  
+  .slick-slide {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .slick-track {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .project-description {
+    font-size: clamp(1rem, 2.5vw, 1.5rem); /* Dynamically adjusts based on screen size */
+    text-align: center;
+    line-height: 1.6;
+    margin: 0px 0px 50px 0px;
+    padding:0px 50px;
+    font-weight: 500;
+  }
+  
+  .project-description span {
+    font-weight: 700; /* Emphasize specific keywords */
+    color: var(--secondary-color);
+  }
+  
+  
+@media screen and (max-width:768px) {
+    
+    .LogoSlider img{
+        margin-top: 50px;
+    }
+    .project-image{
+        padding: 30px !important;
+    }
+    .project-description{
+      margin: 0px 0px 10px 0px !important;
+    }
+}
+@media screen and (max-width:425px) {
+    .LogoSlider{
+      padding-top: 0px !important;
+    }
+    .LogoSlider img{
+        margin-top: 20px;
+        height: 60px;
+        width: auto;
+    }
+
+    .projects-slider-container {
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+        max-width: 100vw;
+        height: auto !important;
+        overflow:hidden ;
+      }
+      
+      .project-image {
+        padding: 15px !important;
+        width: 100% !important;
+        object-fit: cover !important;
+        height: 270px !important;
+        display: block;
+        padding-left: 70px;
+      }
+      .slick-slide {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      
+      .slick-track {
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+        column-gap: 10px !important;
+      }
+      .project-description {
+        padding: 0px 10px;
+        font-weight: 500;
+        margin: 0px;
+      }
+      
+}

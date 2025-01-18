@@ -1,0 +1,16 @@
+.know{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.more-btn{
+    text-decoration: none;
+    color: white !important;
+    padding: 8px 16px;
+    border: 1px solid var(--secondary);
+    border-radius: 20px;
+    /* background-color: var(--secondary); */
+    /* background-color: var(--secondary); */
+}

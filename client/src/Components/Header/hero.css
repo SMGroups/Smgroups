@@ -1,0 +1,205 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  .header-bg{
+    z-index: -2;
+    top: 0;left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center !important;
+    filter: brightness(30%);
+  }
+  
+  .header-career{
+    z-index: -1;
+    top: 0;left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/career.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    filter: brightness(30%);
+  }
+  
+  .header-training{
+    z-index: -1;
+    top: 0;left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/training.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    filter: brightness(30%);
+  }
+  .header-mech{
+    z-index: -1;
+    top: 0;left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/mechbg.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center  !important;
+    filter: brightness(30%);
+  }
+  .header-civil{
+    z-index: -1;
+    top: 0;left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/civilbg.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important ;
+    filter: brightness(30%);
+  }
+  .header-solar{
+    z-index: -1;
+    top: 0;left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/solarbg.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center ;
+    filter: brightness(30%);
+  }
+  .header-sw{
+    z-index: -1;
+    top: 0;left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/swbg.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center ;
+    filter: brightness(30%);
+  }
+  .careers{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .career-head{
+    font-size: 80px !important;
+  }
+  .career-head span{
+    color: var(--secondary);
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    z-index: 99;
+  }
+  .hero-title{
+    font-size: 48px;
+    font-weight: 800;
+  }
+  .hero-subtitle{
+    padding: 0px 200px;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .button-group-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .button-group-hero .button-one,.button-two{
+    outline: none !important;
+    border: none !important;
+    background-color: var(--secondary);
+    color: white;
+    padding: 12px 30px !important;
+    cursor: pointer;
+    border-radius:7px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.5s ease !important;
+  }
+  .button-group-hero .button-two{
+    border: 1px solid grey !important;
+    background-color: transparent;
+  }
+  .button-group-hero .button-two:hover{
+    background-color: var(--secondary) !important;
+    border: 1px solid var(--secondary) !important;
+  }
+
+
+  @media screen and (max-width:768px) {
+    .header{
+      padding: 50px;
+    }
+    .hero-title{
+      font-size: 40px;
+      font-weight: 800;
+    }
+    .hero-subtitle{
+      font-weight: 600;
+      font-size: 20px;
+      padding: 0px 50px;
+    }
+    .career-head{
+      transform: translateY(50px);
+      font-size: 60px !important;
+    }
+    .careers{
+      gap: 30px !important;
+    }
+    
+  }
+
+  @media screen and (max-width:425px) {
+    .header{
+      padding: 10px;
+    }
+    .hero-title{
+      font-size: 30px;
+      font-weight: 800;
+    }
+    .hero-subtitle{
+      font-weight: 600;
+      font-size: 16px;
+      padding: 0px 10px;
+    }
+    .button-group-hero{
+      gap: 20px;
+    }
+    .button-group-hero .button-one,.button-two{
+  
+      padding: 10px 20px !important;
+      border-radius:6px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .career-head{
+      font-size: 35px !important;
+      padding-bottom: 10px;
+    }
+  }

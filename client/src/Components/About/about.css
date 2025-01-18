@@ -1,0 +1,93 @@
+.about{
+    color: white;
+  }
+  .about-left .about-head{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .about-left .about-content{
+    color: rgb(161, 161, 161);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .points{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-point{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;  
+    column-gap: 10px !important;
+    gap: 15px !important;
+  } 
+  .about-circle{
+    font-size: 28px !important;
+    color:  var(--secondary);
+  }
+  .about-point-right{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 0px !important;
+  }
+  .point-head{
+    margin: 0 !important;
+    font-size: 20px;
+  }
+  .point-text{
+    margin: 0 !important;
+    font-size: 18px;
+    color: rgb(161, 161, 161);
+  }
+  .counter{
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+  }
+  .count-box{
+    border-radius: 8px;
+    padding: 30px;
+    width: 250px !important;
+    background-color: rgb(29, 29, 29);
+  }
+  .count{
+    color: var(--secondary);
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .count-text{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width:768px) {
+    .count{
+      width: 50%;
+    }
+    .count-box{
+      width: 45% !important;
+    }
+  }
+  @media screen and (max-width:425px) {
+    .about{
+      padding:0px !important ;
+      margin: 0px !important;
+      margin-top: 30px !important;
+    }
+    .count{
+      width: 100%;
+    }
+    .count-box{
+      width: 100% !important;
+    }
+  }
