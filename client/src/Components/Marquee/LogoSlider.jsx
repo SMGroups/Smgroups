@@ -11,6 +11,8 @@ import project2 from '../../assets/images/projects/project2.jpg';
 import project3 from '../../assets/images/projects/project3.jpg';
 import project4 from '../../assets/images/projects/project4.jpg';
 import project5 from '../../assets/images/projects/project5.jpg';
+import project6 from '../../assets/images/projects/project6.jpeg';
+import project7 from '../../assets/images/projects/project7.jpeg';
 
 // Import the react-slick carousel package
 import Slider from 'react-slick';
@@ -23,10 +25,10 @@ import './Marquee.css';
 
 const LogoSlider = () => {
   const projectImages = [
-    { src: project1, alt: 'Project 1' },
+    { src: project6, alt: 'Project 1' },
+    { src: project7, alt: 'Project 4' },
     { src: project2, alt: 'Project 2' },
     { src: project3, alt: 'Project 3' },
-    { src: project4, alt: 'Project 4' },
     { src: project5, alt: 'Project 5' },
   ];
 
