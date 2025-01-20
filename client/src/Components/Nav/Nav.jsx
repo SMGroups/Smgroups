@@ -149,13 +149,13 @@ const Nav = ({ isScrolled, ToggleMenu }) => {
             >
               Training
             </Link>
-            <a
-              href="#project"
+            <Link
+              to="/project"
               className={`nav-link ${activeSection === "project" ? "active" : ""}`}
-              onClick={(e) => handleSmoothScroll(e, "project")}
             >
-              Project
-            </a>
+              Projects
+            </Link>
+            
             <Link
               to="/careers"
               className={`nav-link ${activeSection === "careers" ? "active" : ""}`}

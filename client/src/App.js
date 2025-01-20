@@ -9,6 +9,7 @@ import MechanicalPage from "./Pages/MechanicalPage";
 import CivilPage from "./Pages/CivilPage";
 import SolarPage from "./Pages/SolarPage";
 import SoftwarePage from "./Pages/SoftwarePage";
+import ProjectsPage from "./Pages/ProjectsPage";
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
       <Route path="/civil" element={<CivilPage isOpen={isOpen}  ToggleMenu={ToggleMenu}/>} isScrolled={isScrolled}/>
       <Route path="/solar" element={<SolarPage isOpen={isOpen}  ToggleMenu={ToggleMenu}/>} isScrolled={isScrolled}/>
       <Route path="/software" element={<SoftwarePage isOpen={isOpen}  ToggleMenu={ToggleMenu}/>} isScrolled={isScrolled}/>
+      <Route path="/project" element={<ProjectsPage isOpen={isOpen}  ToggleMenu={ToggleMenu}/>} isScrolled={isScrolled}/>
     </Routes>
   );
 }

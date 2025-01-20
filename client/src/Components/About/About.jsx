@@ -78,7 +78,7 @@ const About = () => {
                     </div>
                     <div className="count-box col col-12 col-md-6 col-lg-6">
                         <p className="count">
-                            1000+
+                            50+
                         </p>
                         <p className="count-text">
                             Expert Trainers

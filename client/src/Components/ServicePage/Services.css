@@ -98,6 +98,24 @@ h1.sheet{
 }
 
 
+.project-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project-img img{
+    width: 350px;
+    align-self: stretch;
+}
+.project-des{
+    font-size: 18px;    
+    padding: 0px 100px;
+    padding-bottom: 70px;
+}
 
 
 
@@ -112,6 +130,18 @@ h1.sheet{
     }
     .mech-feature{
         padding: 50px 30px;
+    }
+    .project-img{
+        padding: 0px 50px;
+        padding-bottom: 50px;
+    }
+    .project-img img{
+        width: 300px;
+    }
+    .project-des{
+        font-size: 18px;    
+        padding: 0px 50px;
+        padding-bottom: 40px;
     }
     
 }
@@ -143,5 +173,20 @@ h1.sheet{
     } 
     .civil-pic,.mech-pic,.solar-pic{
         padding: 20px;
+    }
+    .project-img{
+        padding: 0px 30px;
+        padding-bottom: 50px;
+    }
+    .project-img img{
+        width: 100%;
+    }
+    .project-des{
+        font-size: 18px;    
+        padding: 0px 20px;
+        padding-bottom: 40px;
+    }
+    .pro-t{
+        padding-bottom: 10px !important;
     }
 }

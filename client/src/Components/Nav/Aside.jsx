@@ -36,6 +36,13 @@ const Aside = ({ isOpen, ToggleMenu }) => {
         </li>
 
         <li className="sidebar-item">
+          <Link to="/project" className="sidebar-link" onClick={(e) => handleNavigation(e, '/project')}>
+            <i className="fa-solid fa-user"></i>
+            <span>Project</span>
+          </Link>
+        </li>
+
+        <li className="sidebar-item">
           <a
             href={"#"}
             className="sidebar-link collapsed has-dropdown"
