@@ -47,7 +47,7 @@ const Footer = () => {
              <p> 3,Suramangalam Road, </p>
               <p>Salem - 636005 </p>
               <p>PH : 9486783278 </p>
-              <p>Mail : thesmgroupsnm@gmail.com</p>
+              <p>Mail : thesmgroups@gmail.com</p>
           </div>
 
         </div>

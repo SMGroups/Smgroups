@@ -36,7 +36,7 @@ const Contact = () => {
               
               <div className="contact-det">
                     <p><MdPhoneInTalk className='Contact-icon'/>9486783278</p>
-                    <p><IoIosMail className='Contact-icon'/>thesmgroupsnm@gmail.com</p>
+                    <p><IoIosMail className='Contact-icon'/>thesmgroups@gmail.com</p>
               </div>
           </div>
           </div>
