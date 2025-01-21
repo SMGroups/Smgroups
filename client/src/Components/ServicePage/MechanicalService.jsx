@@ -19,7 +19,7 @@ const MechanicalService = () => {
     </section>
     <div className="row mechanical">
         
-        <div className="col col-12 col-md-12 col-lg-6 mechanical-left">
+        <div className="col col-12 col-md-12 col-lg-6 mechanical-left" id='mech'>
             <div className='mechanical-left-inner'>
                 <p className="s-title">CAD Design & 3D Modeling</p>
                 <p className="s-Content"><FaCheck className='list-icon'/><span>Software Mastery: </span>Proficient in industry-leading tools like AutoCAD, SolidWorks, Revit, Creo, and CATIA, ensuring every design meets the highest standards.</p>

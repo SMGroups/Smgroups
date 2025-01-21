@@ -7,7 +7,7 @@ const MechHero = () => {
                   "Empowering industries with cutting-edge mechanical solutions tailored to elevate performance and efficiency."
               </p>
               <div className="button-group-hero">
-                  <a href="#contact"><button className='button-one'>Explore Services</button></a>
+                  <a href="#mech"><button className='button-one'>Explore Services</button></a>
               </div>
         </div>
       </header>
