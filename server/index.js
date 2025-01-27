@@ -7,7 +7,7 @@ const app = express();
 const cors = require('cors');
 const allowedOrigins = [
   "https://smgroups-bkiuolose-smgroups-projects.vercel.app",
-  "https://smgroups.vercel.app/"
+  "https://smgroups.vercel.app"
 ];
 
 app.use(
