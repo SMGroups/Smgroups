@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 const cors = require('cors');
 const allowedOrigins = ["https://smgroups.vercel.app"];
-
+app.options("*", cors());
 app.use(
   cors({
     origin: allowedOrigins,
