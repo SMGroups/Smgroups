@@ -1,5 +1,5 @@
 // controllers/messageController.js
-const Message = require('../model/Message');
+// const Message = require('../model/Message');
 const { sendEmail } = require('../services/mailService.js');
 
 const sendMessage = async (req, res) => {
@@ -15,8 +15,8 @@ const sendMessage = async (req, res) => {
 
   try {
     // Save the message data to the database
-    const newMessage = new Message({ name, mobile, email, city, pincode, message });
-    await newMessage.save();
+    // const newMessage = new Message({ name, mobile, email, city, pincode, message });
+    // await newMessage.save();
 
     // Send the email with the message details
     await sendEmail({ name, mobile, email, city, pincode, message });

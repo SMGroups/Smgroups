@@ -9,6 +9,7 @@ import Contact from '../Components/Contact/Contact'
 
 import Industries from '../Components/Industries/Industries'
 import LogoSlider from '../Components/Marquee/LogoSlider'
+import Team from '../Components/Team/Team'
 
 const Home = ({isOpen,ToggleMenu,isScrolled}) => {
   return (
@@ -21,6 +22,7 @@ const Home = ({isOpen,ToggleMenu,isScrolled}) => {
         <Industries />
         <LogoSlider />
         <About />
+        <Team />
         <Contact />
         <Footer />
     </div>

@@ -1,0 +1,33 @@
+.team-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.team-card{
+    border-radius: 15px;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+    margin: 20px 40px !important;
+    background-color: var(--primary);
+}
+.team-card h3{
+    color: var(--secondary);
+    font-weight: 700;
+}
+.team-card p{
+    color: white;
+}
+.team-container{
+    margin-bottom: 50px !important;
+}
+.team-card .icon{
+    font-size: 25px !important;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:425px) {
+    .team-card{
+        margin: 20px 20px !important;
+        background-color: var(--primary);
+    }
+}

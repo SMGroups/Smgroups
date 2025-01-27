@@ -22,6 +22,7 @@ import "slick-carousel/slick/slick-theme.css";
 import './Marquee.css';
 
 const LogoSlider = () => {
+
   const projectImages = [
     { src: project6, alt: 'Project 1' },
     { src: project7, alt: 'Project 4' },

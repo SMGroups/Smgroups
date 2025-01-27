@@ -7,8 +7,8 @@ import react from '../../assets/images/Software/react.png';
 import node from '../../assets/images/Software/node.png';
 import java from '../../assets/images/Software/java.png';
 import python from '../../assets/images/Software/python.png';
-import webDesign from '../../assets/images/Service/web.jpg';
-import webDev from '../../assets/images/Service/uiux.jpg';
+import webDev from '../../assets/images/Service/web.jpg';
+import webDesign from '../../assets/images/Service/uiux.jpg';
 import androidDev from '../../assets/images/Service/android.jpg';
 
 const SoftwareService = () => {

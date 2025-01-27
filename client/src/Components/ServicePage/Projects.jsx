@@ -22,6 +22,8 @@ import f2 from '../../assets/images/Site/f2.jpeg';
 import f3 from '../../assets/images/Site/f3.jpeg';
 import e1 from '../../assets/images/Site/e1.jpeg';
 import e2 from '../../assets/images/Site/e2.jpeg';
+import mb1 from '../../assets/images/Site/mb1.jpeg';
+import mb2 from '../../assets/images/Site/mb2.jpeg';
 
 const Projects = () => {
   return (
@@ -156,6 +158,20 @@ const Projects = () => {
           <img src={e2} alt="Electric Bike Design and Development" />
         </div>
       </div>
+
+      <div className="project">
+        <div className="sheetmetal">
+          <h1 className="sheet">3D Model Design and Molding</h1>
+        </div>
+        <p className="project-des">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our 3D model design and molding project showcases our creativity and expertise in product development. We conceptualized and designed a unique money bank, focusing on functionality, aesthetics, and durability. Using advanced 3D modeling tools, we created a detailed prototype and refined it for efficient molding. The final product features a sleek design and high-quality materials, ensuring longevity and user satisfaction. This project highlights our ability to turn ideas into tangible products, delivering solutions that resonate with users and stand out in the market.
+        </p>
+        <div className="project-img">
+          <img src={mb1} alt="3D Model Design and Molding: Money Bank" />
+          <img src={mb2} alt="3D Model Design and Molding: Money Bank" />
+        </div>
+      </div>
+
     </>
   );
 };
