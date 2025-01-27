@@ -14,7 +14,7 @@ const Register = () => {
   const onSubmit = async (data) => {
     
     try {
-      const response = await fetch('https://smgroups-ri1z-qtszset1w-smgroups-projects.vercel.app', {
+      const response = await fetch('https://smgroups-ri1z-qtszset1w-smgroups-projects.vercel.app/api/send-message', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

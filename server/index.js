@@ -5,18 +5,16 @@ require('dotenv').config();
 
 const app = express();
 const cors = require('cors');
-const allowedOrigins = [
-  "https://smgroups-bkiuolose-smgroups-projects.vercel.app",
-  "https://smgroups.vercel.app"
-];
+const allowedOrigins = ["https://smgroups.vercel.app"];
 
 app.use(
   cors({
     origin: allowedOrigins,
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed HTTP methods
-    credentials: true, // Allow credentials if needed (e.g., cookies)
+    credentials: true, // Allow cookies if required
   })
 );
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
