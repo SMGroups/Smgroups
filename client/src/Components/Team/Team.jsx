@@ -28,10 +28,10 @@ const Team = () => {
         <section className="training" id="training">
         <div className="titles">
           <p className="training-title">Meet Our Team</p>
-          <p className="training-subtitle">
+          <div className="blue-line mb-4" ></div>
+          <p className="project-description">
             "United by passion, driven by purpose – meet the people who bring our vision to life."
           </p>
-          <div className="blue-line"></div>
         </div>
       </section>
       <Carousel
@@ -40,7 +40,7 @@ const Team = () => {
         autoPlaySpeed={3000}
         infinite
         showDots
-        arrows={true}
+        arrows={false}
         renderDotsOutside={true}
         customDotListStyle={{ marginTop: '10px' }}
       >
