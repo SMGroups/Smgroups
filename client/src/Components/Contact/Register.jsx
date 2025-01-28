@@ -9,7 +9,7 @@ import FormTextarea from "./FormTextarea";
 import MobileInput from "./MobileInput";
 
 const Register = () => {
-  const { register, handleSubmit, reset, formState: { errors } } = useForm();
+  const { register, handleSubmit, reset, formState: { errors } } = useForm(); 
 
   const onSubmit = async (data) => {
     
