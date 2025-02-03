@@ -4,13 +4,14 @@
     border-radius: 50%;
 }
 .team-card{
+    min-height: 350px;
     border-radius: 15px;
     padding-top: 50px !important;
     padding-bottom: 30px !important;
     margin: 20px 40px !important;
     background-color: var(--primary);
 }
-.team-card h3{
+.team-card h5{
     color: var(--secondary);
     font-weight: 700;
 }
@@ -24,6 +25,9 @@
 .team-card .icon{
     font-size: 20px !important;
     margin-right: 10px;
+}
+.mail{
+    font-size: 15px !important;
 }
 
 @media screen and (max-width:768px) {

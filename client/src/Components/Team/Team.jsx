@@ -5,6 +5,8 @@ import { IoIosMail } from "react-icons/io";
 import 'react-multi-carousel/lib/styles.css';
 import img1 from '../../assets/images/team/hari.jpeg'
 import img2 from '../../assets/images/team/sneka.jpeg'
+import img3 from '../../assets/images/team/guberan.jpeg'
+import img4 from '../../assets/images/team/sankar.jpeg'
 
 const Team = () => {
 
@@ -53,9 +55,9 @@ const Team = () => {
               alt='Hariharan'
               className="mx-auto mb-4"
             />
-            <h3 className="text-lg font-semibold">HARIHARAN L</h3>
-            <p className="text-sm text-gray-600">AERONAUTICAL DESIGNER</p>
-            <p className="text-sm text-gray-600"><IoIosMail className='icon'/>samjayakaran155@gmail.com</p>
+            <h5 className="text-lg font-semibold">HARIHARAN L</h5>
+            <p className="text-sm text-gray-600">DESIGN DESIGNER</p>
+            <p className="text-sm text-gray-600 mail"><IoIosMail className='icon'/>samjayakaran155@gmail.com</p>
           </div>
 
           <div
@@ -66,22 +68,35 @@ const Team = () => {
               alt='Sneka'
               className="mx-auto mb-4"
             />
-            <h3 className="text-lg font-semibold">SNEKA V</h3>
-            <p className="text-sm text-gray-600">TECHNICAL TRAINER</p>
-            <p className="text-sm text-gray-600"><IoIosMail className='icon'/>snekav99@gmail.com</p>
+            <h5 className="text-lg font-semibold">SNEKA V</h5>
+            <p className="text-sm text-gray-600">SOFTWARE TRAINER</p>
+            <p className="text-sm text-gray-600 mail"><IoIosMail className='icon'/>snekav99@gmail.com</p>
           </div>
 
           <div
             className="team-card p-4 text-center"
           >
             <img
-              src={img1}
+              src={img3}
+              alt='GUBERAN'
+              className="mx-auto mb-4"
+            />
+            <h5 className="text-lg font-semibold">GUBERAN S.M</h5>
+            <p className="text-sm text-gray-600">DESIGN ENGINEER</p>
+            <p className="text-sm text-gray-600 mail"><IoIosMail className='icon'/>thesmgroups@gmail.com</p>
+          </div>
+
+          <div
+            className="team-card p-4 text-center"
+          >
+            <img
+              src={img4}
               alt='Hariharan'
               className="mx-auto mb-4"
             />
-            <h3 className="text-lg font-semibold">SANKAR GANESH</h3>
+            <h5 className="text-lg font-semibold">SANKARGANESH</h5>
             <p className="text-sm text-gray-600">FOUNDER & DIRECTOR</p>
-            <p className="text-sm text-gray-600"><IoIosMail className='icon'/>thesmgroups@gmail.com</p>
+            <p className="text-sm text-gray-600  mail"><IoIosMail className='icon'/>thesmgroups@gmail.com</p>
           </div>
 
       </Carousel>
