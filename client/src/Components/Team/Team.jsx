@@ -56,7 +56,7 @@ const Team = () => {
               className="mx-auto mb-4"
             />
             <h5 className="text-lg font-semibold">HARIHARAN L</h5>
-            <p className="text-sm text-gray-600">DESIGN DESIGNER</p>
+            <p className="text-sm text-gray-600">DESIGN ENGINEER</p>
             <p className="text-sm text-gray-600 mail"><IoIosMail className='icon'/>samjayakaran155@gmail.com</p>
           </div>
 
