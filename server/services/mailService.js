@@ -9,7 +9,7 @@ const sendEmail = async (data) => {
     secure: false,
     auth: {
         user: process.env.EMAIL,
-        pass: 'qfdizmkpufoffwxg'
+        pass: qfdizmkpufoffwxg
     }
   });
 
